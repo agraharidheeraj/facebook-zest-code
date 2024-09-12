@@ -77,28 +77,7 @@ export const FriendCardSkeleton = () => (
     </div>
   )
   
- export const PostSkeleton = () => (
-    <Card className="mb-4">
-      <CardContent className="pt-4">
-        <div className="flex items-center mb-4">
-          <Skeleton className="h-10 w-10 rounded-full" />
-          <div className="ml-3">
-            <Skeleton className="h-4 w-32" />
-            <Skeleton className="h-3 w-24 mt-1" />
-          </div>
-        </div>
-        <Skeleton className="h-4 w-full mb-2" />
-        <Skeleton className="h-4 w-full mb-2" />
-        <Skeleton className="h-4 w-2/3 mb-4" />
-        <Skeleton className="h-48 w-full mb-4" />
-        <div className="flex justify-between">
-          <Skeleton className="h-8 w-20" />
-          <Skeleton className="h-8 w-20" />
-          <Skeleton className="h-8 w-20" />
-        </div>
-      </CardContent>
-    </Card>
-  )
+
 
 
  export const NoFriendsMessage = () => (
