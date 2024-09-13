@@ -4,7 +4,7 @@
 
 import { motion } from "framer-motion";
 
-export default function PulseDotLoader() {
+export default function Loader() {
   const dotVariants = {
     hidden: { opacity: 0.3, scale: 0.5 },
     visible: (i) => ({
@@ -133,14 +133,11 @@ export const FriendCardSkeleton = () => (
         break;
 
 
-//right side sponser
-
-  <p>Privacy · Terms · Advertising ·</p>
+//left side bar
+ <p>Privacy · Terms · Advertising ·</p>
             <p>· Meta © 2024</p>
 
-
-
-
+//righ side sponser
  const sponsors = [
     {
       name: "Netflix",
